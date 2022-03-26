@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/</loc>
+    
+    <lastmod>2022-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tidedra.top/tags/index.html</loc>
     
     <lastmod>2022-03-25</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://tidedra.top/link/index.html</loc>
-    
-    <lastmod>2022-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/</loc>
     
     <lastmod>2022-03-25</lastmod>
     
@@ -106,6 +106,13 @@
   </url>
   
   <url>
+    <loc>https://tidedra.top/tags/Vim/</loc>
+    <lastmod>2022-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tidedra.top/tags/Tensorflow/</loc>
     <lastmod>2022-03-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -121,13 +128,6 @@
   
   <url>
     <loc>https://tidedra.top/tags/Pytorch/</loc>
-    <lastmod>2022-03-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tidedra.top/tags/Vim/</loc>
     <lastmod>2022-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
