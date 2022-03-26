@@ -532,14 +532,14 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
   function initValine () {
     const valine = new Valine(Object.assign({
       el: '#vcomment',
-      appId: 'x7C2UiqAlvLlPEIsVusisuTA-gzGzoHsz',
-      appKey: 'zI4JEfVQyHvNShNEJvcIAYKO',
+      appId: 'Ma2oIbe5SQqQadapIhXlTNs3-MdYXbMMI',
+      appKey: 'QEjKMYAuQqGLtfegLWHkhles',
       avatar: 'monsterid',
       serverURLs: '',
       emojiMaps: "",
       path: window.location.pathname,
       visitor: true
-    }, null))
+    }, {"meta":["nick","mail"],"requiredFields":["nick","mail"]}))
   }
 
   if (typeof Valine === 'function') initValine() 
