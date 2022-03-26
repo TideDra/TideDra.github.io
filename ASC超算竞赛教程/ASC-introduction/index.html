@@ -1,0 +1,372 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【ASC超算教程】ASC竞赛快速入门 | 泷汐的小屋</title><meta name="keywords" content="ASC竞赛"><meta name="author" content="TideDra,GearyZhang@outlook.com"><meta name="copyright" content="TideDra"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言 《超算竞赛导引》是由赛事官方编写的指导书。本文就书中的一些有用、重点的内容作摘要整理，并根据笔者自身经验加以补充，以助刚入门的同学快速了解、上手超算竞赛。欲见详细内容请自行购买、借阅书籍。 ASC竞赛规则介绍 东南大学校赛规则 由于ASC是团队竞赛，因此我校每年会先举办校内个人选拔赛，题目即为本年ASC初赛赛题。参赛选手最终需要根据题目要求，提交一篇技术方案（Proposal），并进行答辩参">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【ASC超算教程】ASC竞赛快速入门">
+<meta property="og:url" content="https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/index.html">
+<meta property="og:site_name" content="泷汐的小屋">
+<meta property="og:description" content="前言 《超算竞赛导引》是由赛事官方编写的指导书。本文就书中的一些有用、重点的内容作摘要整理，并根据笔者自身经验加以补充，以助刚入门的同学快速了解、上手超算竞赛。欲见详细内容请自行购买、借阅书籍。 ASC竞赛规则介绍 东南大学校赛规则 由于ASC是团队竞赛，因此我校每年会先举办校内个人选拔赛，题目即为本年ASC初赛赛题。参赛选手最终需要根据题目要求，提交一篇技术方案（Proposal），并进行答辩参">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png">
+<meta property="article:published_time" content="2022-03-25T17:43:42.000Z">
+<meta property="article:modified_time" content="2022-03-25T17:48:15.965Z">
+<meta property="article:author" content="TideDra">
+<meta property="article:tag" content="ASC竞赛">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【ASC超算教程】ASC竞赛快速入门',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-03-26 01:48:15'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img.zsaqwq.com/images/2022/03/25/headimg.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link"><i class="fa-fw fa-solid fa-link"></i><span> 链接</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">泷汐的小屋</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link"><i class="fa-fw fa-solid fa-link"></i><span> 链接</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【ASC超算教程】ASC竞赛快速入门</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-25T17:48:15.965Z" title="更新于 2022-03-26 01:48:15">2022-03-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/">ASC超算竞赛教程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="【ASC超算教程】ASC竞赛快速入门"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="前言-4">前言</h2>
+<p>《超算竞赛导引》是由赛事官方编写的指导书。本文就书中的一些有用、重点的内容作摘要整理，并根据笔者自身经验加以补充，以助刚入门的同学快速了解、上手超算竞赛。欲见详细内容请自行购买、借阅书籍。</p>
+<h2 id="ASC竞赛规则介绍">ASC竞赛规则介绍</h2>
+<h3 id="东南大学校赛规则">东南大学校赛规则</h3>
+<p>由于ASC是团队竞赛，因此我校每年会先举办校内个人选拔赛，题目即为本年ASC初赛赛题。参赛选手最终需要根据题目要求，提交一篇技术方案（Proposal），并进行答辩参与评选。校方从中选取十人组成主队与副队，代表东南大学正式参加ASC竞赛。队员们在校赛阶段的研究基础上做进一步研究，向ASC组委会提交最终的初赛Proposal和其他所需数据。</p>
+<p>往年我校报名参加ASC竞赛的人数都很少，最终成功提交Proposal的人更是寥寥无几。因此只要有恒心有耐心坚持到底，基本上都可以进入校队参加决赛。</p>
+<h3 id="2014年初赛规则解析">2014年初赛规则解析</h3>
+<h4 id="初赛介绍">初赛介绍</h4>
+<p>时间：2014年1月2日~2月27日上午9:00.</p>
+<p>形式：竞赛评审委员会给定统一命题，竞赛组织委员会发送给报名参赛队伍，报名参赛队在规定时间内按命题要求提交书面方案和测试优化结果，由竞赛评审委员会统一评定入围决赛队伍。</p>
+<h4 id="初赛规则解析">初赛规则解析</h4>
+<p>(1)首先要明确初赛截止时间，在规定的时间内提交组委会要求的内容，其中包含书面方案和测试优化结果。因此对竞赛委员会命题必须仔细研读！</p>
+<p>(2)初赛要求提交书面方案（Proposal），书面方案包含三大部分。</p>
+<ol>
+<li>参赛部门的超级计算技术水平(5分)。</li>
+</ol>
+<p>介绍学校超算平台，介绍学校的超算教育(课程、培训班、兴趣小组)、应用情况、超算成果等。超算平台介绍可以通过学校的网络中心，超算教有可以通过教务处等获得相关信息：做好调研、沟通，各项都有涉及或介绍即可。</p>
+<ol start="2">
+<li>参赛部门的竞赛组织情况(5分)。</li>
+</ol>
+<p>本部分包含两个内容，一是介绍竞赛组织和参与情况，二是参赛队伍构成部分介绍。首先介绍获取竞赛信息的时间、方式，学校对竞赛的重视，老师同学的响应，人员征集等各个层面的情况：其次对指导老师以及各个参赛学生一一从年龄、性别、专业背景、兴趣爱好等方面进行介绍。</p>
+<p><strong>以上内容在校赛Proposal中不需要呈现。</strong></p>
+<ol start="3">
+<li>参赛技术方案(90分)。</li>
+</ol>
+<p>该部分是整个书面方案中权重最大的一项，重点考察参赛队对高性能计算的理解程度。不仅包含硬件层考察、系统层考察，更重要的是要让参赛学员了解应用的重要性、应用优化的必要性。</p>
+<p>技术方案包含系统平台建设方案、HPL测试方案、Quantum Espresso 测试方案、CPU+MIC的应用优化四个方面。</p>
+<p>a. 系统平台建设(15分)。</p>
+<p>必须要求在3kW的功耗下搭建整套系统，在这一前提条件下就要先计算组成一套机器的每个部件的功耗，如CPU的功耗、每个内存条的功耗、机器中内存条的个数、HCA卡功耗、硬盘功耗、硬盘个数：并从实际应用考虑是否使用加速卡：最后各个部件确定后，一台机器的功耗可以预估到，在3kW功耗限制下，计算出机器的个数，最后确定出系统方案。该部分不仅需要全局考虑，还要考虑各个细节。不仅要了解硬件特点，还要常握系统知识。各个参赛队运筹帷幄，方可拿出优秀的系统平台建设方案。</p>
+<p><strong>校赛、初赛阶段一般没有条件调整硬件，故只需在决赛阶段考虑系统平台建设。</strong></p>
+<p>b. HPL测试方案(15分)。</p>
+<p>要求在通过正确性检查的前提下，以浮点运算性能最高为目标。测试方案首先要求描述测试HPL的操作系统、编译器、数学库、MPI等。并给出测试的方法，以及对HPL进行优化。评审委员会建议从算法原理层进行讨论展开。这是考察参赛队对HPL的算法、模型的掌握程度，参赛队如果能从这一层级入手，对HPL的测试和优化大有牌益。在理解掌握算法后，从代码层级优化也将成为可能。因此针对该部分的方案最好能给出HPL测试的软硬件环境、HPL基本原理分析、HPL的测试方法、测试结果、性能分析、优化方法、总结等，这样可较强地涵盖方案要求。</p>
+<p><strong>近年赛题除了HPL测试，还加入了HPCG测试。关于此题的更详细的介绍请见本站的其他文章。</strong></p>
+<p>c. Quantum Espresso测试方案(20分)。</p>
+<p>要求在通过正确性检查的前提下，以运行时间最短为目标。测试方案也是要求描述测试时的操作系统、编译器、数学库、MPI等，并给出测试、<br>
+优化的方法。测试方法中一般需要详述软件编译的方法或步骤，列出编译使用的关键参数。Quantum Espresso不像HPL是评估计算机的计算性能，它是一款材料科学类的应用软件，用于解决实际的科研问题。因此参赛队掌握软件的功能、用途是基础要求。在掌握基本的功能后，如果能从原理或算法层级进行研究则可以大大提高测试和优化的效率。针对该部分的方案最好能给出Quantum Espresso测试的软硬件环境、Quantum Espresso简介、Quantum Espresso基本原理分析、并行方法分析、测试方法、测试结果、性能分析、优化方法、总结等，这样可较强地涵盖方案要求。</p>
+<p>d. CPU+MIC程序设计与实现(40分)。</p>
+<p>即在通过正确性检查的前提下，完成组委会给定代码的CPU并行化或CPU+MIC并行的设计与优化。组委会为各个参赛队提供了测试平台，包含纯CPU集群并行和CPU+MIC集群。参赛队可以在这两种平台中任选一个进行代码的并行化和优化。可以采用MPI、OpenMP、PThread,OpenCL等MIC支持的并行编程模型；若采用CPU+MIC集群并行，MIC程序必须采用模式：由于涉及代码的并行化和优化，参赛队必须对物理模型、数学算法、并行程序设计有所掌握。因此在方案中要包含应用的介绍、物理模型的分析、数学方法分析、代码分析、向量化分析、并行编程实现过程、并行后的测试，验证、优化的思路，方法等。</p>
+<p><strong>最后两题一般就是像这样的应用优化问题。需要选手仔细阅读代码并进行各种优化尝试。校赛阶段一般要求二选一即可。</strong></p>
+<h2 id="校赛具体要做什么？">校赛具体要做什么？</h2>
+<h3 id="赛前">赛前</h3>
+<ul>
+<li>
+<p>熟悉Linux环境与基本操作，详见本站《Linux基础教程》。</p>
+</li>
+<li>
+<p>具备基本英语论文写作能力。校赛Proposal一般没什么格式要求，Markdown、Word、Latex都可以写。尽管如此，高颜值不管在哪里都是加分项。进入校队后撰写正式Proposal毋庸置疑需要Latex。</p>
+</li>
+<li>
+<p>在个人电脑或服务器上（一定是Linux系统）尝试配置基础环境。像HPL/HPCG这种每年必做题，赛前就可以在自己电脑上跑起来了。熟悉环境配置流程后再上手学校提供的超算节点就会轻松很多。</p>
+</li>
+<li>
+<p>熟悉Python、C++语言。近年来AI模型是热点题，因此最好具备深度学习的基本知识，了解Pytorch、Tensorflow等深度学习框架。</p>
+</li>
+<li>
+<p>了解操作系统的基本知识。如进程、线程、内存、缓存、并行等基本概念。</p>
+</li>
+</ul>
+<h3 id="赛中">赛中</h3>
+<ul>
+<li>
+<p>仔细阅读题目要求</p>
+</li>
+<li>
+<p>配置环境，安装HPL/HPCG。如果你在赛前已经充分预习了这一步骤，那么会节省很多时间。一般初次参加ASC竞赛的选手会花费至少50%的时间来配置、安装软件。</p>
+</li>
+<li>
+<p>对HPL/HPCG基准测试(Benchmark)进行调参、代码优化，以取得最佳性能。</p>
+</li>
+<li>
+<p>安装其他题目所需的软件，阅读代码，进行优化测试。</p>
+</li>
+<li>
+<p>整理实验数据，撰写Proposal。</p>
+</li>
+</ul>
+<h2 id="你需要配置的基础环境">你需要配置的基础环境</h2>
+<h3 id="CPU并行系统应用环境">CPU并行系统应用环境</h3>
+<p>高性能计算并行应用的操作系统一般选用Linux操作系统，其中RedHat Linux发行版以其稳定而著称，因此在商业集群中得到广泛应用。但是，RedHat Linux由于需要一定的授权费用以进行维护和售后服务，导致一些对成本极其敏感的客户，放弃了RedHat Linux发行版。RedHat Linux的一个再发行版是CentOS,使用CentOS可以在免费的情况下，获得与RedHat Linux类似的体验。但CentOS并不是官方支持的，因此可能在补丁升级等方面与官方的RedHat有一定差距。另外，CentOS显然也不能获得RedHat官方的售后服务。</p>
+<p><strong>学校在校赛阶段会提供搭载RedHat的超算节点（2022年是如此）。如果你选择自装Linux或者自购服务器，建议使用Ubuntu。</strong></p>
+<h4 id="并行运行环境">并行运行环境</h4>
+<h4 id="MPI">MPI</h4>
+<p>高性能计算并行应用环境的硬件环境构建设计一般采用的是分布式内存结构，因此并行软件环境需要采用消息传递的网络通信方式。MPI是使用最普遍的并行编程环境，其优点在于编程简易、可移植性强。MPICH是MPI标准的一种最重要的实现，该实现可以免费从网上下载。MPICH并行编程环境的安装步骤简述如下。</p>
+<ol>
+<li>解压、安装。首先从网上下载安装包，根据后缀名，使用相应的命令解压，一般解压命令是tar。进入MPI的解压目录下，使用./configure;make命令安装。</li>
+<li>放权。为了能够在多个不同的机器上运行MPI程序，首先需要其他机器对启动MPI程序的机器放权，即允许启动MPI程序的机器能够访问其他的机器。为了简单起见，最好在整个集群的每一个节点机上都建立相同的账户名，使得MPI程序在相同的账户下运行，在放权设置完成以后，可以在任何一个节点，使用同样的账户名，不需要输入密码，这样可以在任何一个节点启动MPI程序，并且在不需要输入密码的情况下可以自动运行程序。</li>
+<li>运行。程序在不同节点可以放置在不同目录下，但为了方便管理，建议放置在同样的目录下，放置在共享存储时最佳。使用哪些节点、每个节点内开启几个MPI进程，是由配置文件决定的，每个应用可以采用不同的节点配置文件，以便根据不同的应用选择不同的方案，避免闲置计算资源或达不到最好的利用效果。在节点内，由于是共享内存模式的并行系统，一方面仍然可以选择MPI软件环境进行并行，另一方面也可以选择OpenMP或PThread方式进行并行。PThread是一种多线程库，也是Linux下的基础多线程库，在其他操作系统中也有PThread库的移植。OpenMP基于PThread，底层由PThread库实现。OpenMP以在源代码中插入编译制导语句的方式，屏蔽了并行程序开发的底层细节，能够以最简便的方式将程序并行化。但是OpenMP不像PThread库能够控制一些底层的细节，因此在某些情况下，性能可能会略逊于PThread。</li>
+</ol>
+<p><strong>校赛阶段一般都是单节点，用不到多机并行。因此只要在本机上安装好MPI，然后在程序的配置文件中给出MPI库文件地址即可单机运行。</strong></p>
+<p><strong>MPI有很多种实现，上面提到的MPICH只是一种比较常用的实现。我们可以比较不同MPI的性能，选出最佳的实现。如果使用Intel处理器，一般使用Intel自家开发的MPI性能最佳。</strong></p>
+<h4 id="开发环境">开发环境</h4>
+<p>传统高性能计算并行应用的软硬件构建应该基于应用环境，即采用与应用环境相同的架构、软硬件环境和规模。理想情况下，开发平台即应用平台，但在实际应用中，往往需要在一个平台上开发，并应用于多个不同的平台。所以在开发环境的选择上，一般选择架构、软硬件环境与应用环境尽量相同，但规模上可能小于应用环境。但是由于规模不同，性能上的表现也可能出现不同，所以在开发测试时，应尽量模拟应用平台的情况进行测试，以免出现开发时性能很好，但是在实际部署中效果不佳的情况。</p>
+<p>开发环境中，包含与应用环境相同的软件环境，并且包括编译器、调试器等软件开发工具和高性能数学库、调优工具等软件优化工具。</p>
+<h4 id="编译器">编译器</h4>
+<p>GNU/GCC是属于GNU的免费编译器套装，包含C/C+、Fortran和其他语言的编译器。GNU编译器在各个操作系统和平台上都有相应的实现，适用范围较广，尤其在Liux系统中，已成为默认的编译器。在Linux系统中，默认都安装有GNU编译器。Linux系统中，包含对PThread库的运行环境支持。各个常用的编译器，都支持OpenMP的语法和PThread的函数声明，并且自带OpenMP和PThread的运行库。因此在安装编译器以后，即可支持OpenMP和PThread库。</p>
+<p>如果使用Intel处理器，我们推荐使用Intel OneAPI套件中的C/C++编译器和Fortran编译器。这往往能取得最佳的性能。</p>
+<h4 id="高性能数学函数库">高性能数学函数库</h4>
+<p>现有的数学函数库可以简化应用程序开发，避免“重复造车轮”的过程，并且使程序简洁，对绝大多数情况来说，使用现成的数学库的性能比程序员自己编写源代码的性能高，因为现成的数学库经过了大量的开发、深度优化和测试，比自己手工写的程序性能好，且可靠性高。因此，如果在程序中用到一些经典算法，一般使用现有的高性能数学库，可以提高代码的工程性，且提高程序性能。</p>
+<p>Intel公司有一套核心数学库，即Math Kemel Library,简称MKL数学库。Intel数学核心函数库(Intel MKL)提供经过高度优化和大量线程化处理的数学例程，面向性能要求极高的科学、工程和金融等领域的应用。Intel MKL为Intel C++和Fortran编译器专业版和Intel集群工具套件的组件，也可作为单独产品使用。Intel MKL针对当前多核x86平台进行了深入而全面的优化，如充分利用了CPU的向量化指令。MKL数学库支持C语言和Fortran的<br>
+接口，面向多核CPU,包含线程安全的特性和在多核上的优秀扩展性，MKL的函数会自动执行处理器检测，并选择调用最适合该处理器的二进制代码。Intel的MKL数学库包含线性代数数学库，即BLAS和LAPACK、ScaLAPACK、稀疏矩阵解算器，快速傅里叶变换(FFT),矢量数学库，即幂函数、三角函数、指数函数、双曲函数、对数函数等，随机数生成器等。</p>
+<p><strong>针对运行HPL/HPCG安装的数学库，除了MKL，我们还可以选择ATLAS、GOTOblas、OpenBLAS等。尽管MKL总能有最出色的表现，但是对不同数学库做实验可以扩充你Proposal的内容。</strong></p>
+<p><strong>以上环境依赖均可通过下载<a target="_blank" rel="noopener" href="https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html#gs.t4fhh1">Intel OneAPI套件</a>一键安装（如果你的处理器是Intel的话），也可以每个组件单独安装。当然后续的环境变量配置还需自己解决。注意使用OneAPI套件时，需先运行脚本<code>/opt/intel/oneapi/setvars.sh</code>设置环境变量。自定义安装目录的话请自行查找这个脚本。</strong></p>
+<p><strong>我们不建议你使用Intel OneAPI的一键安装脚本来一劳永逸。如果时间允许，请尝试使用不同的MPI、数学库，增加自己的实验数据，来证明Intel OneAPI的最优性（水论文）。</strong></p>
+<h3 id="CPU-GPU异构并行环境">CPU+GPU异构并行环境</h3>
+<p>如果想利用Nvidia GPU加速程序，<strong>必须安装CUDA</strong>。CUDA安装教程网上有很多，这里不再赘述。下面给出Nvidia开发的几个库，在做软件优化时我们可以尝试使用它们来提高性能。</p>
+<p>(1)AmgX:提供了对核心求解器加速的简单方案，对于计算密集的线性求解器有着10x的加速，非常适合隐式非结构方法。</p>
+<p>(2)cuDNN:专为深度神经网络设计的GPU加速函数库，可以被快速地加入高层机器学习框架中。</p>
+<p>(3)cuFFT:实现了基于GPU的快速傅里叶变换，并提供简单接口供开发者使用。</p>
+<p>(4)cuBLAS-XT:基于cuBLAS为Level 3 BLAS提供了多GPU加速支持，不需要开<br>
+发者自己配置并调度多GPU资源。</p>
+<p>(5)NPP:包括了上千个图像处理和信号处理函数，功能强大。</p>
+<p>(6)CULA Tools:EM Photonics提供的线性代数库，为复杂的数学计算提供GPU加速。</p>
+<p>(7)MAGMA:支持最新LAPACK和BLAS标准的线性代数库，为异构计算进行特殊<br>
+优化。</p>
+<p>(8)IMSL Fortran Numerical Library:RogueWave开发的基于GPU的数学和统计函数库，涵盖广泛的内容。</p>
+<p>(9)cuRAND:提供高速的GPU加速的随机数生成器。</p>
+<p>(10)ArrayFire:包罗万象的GPU函数库，通盖数学信号处理、图像处理、统计学等领域，支持C/C+、Java、R和Fortran.</p>
+<p>(1I)cuBLAS:GPU加速的BLAS函数库，提供了相比MKL BLAS6x~17x的加速。</p>
+<p>(12)cuSPARSE:对应cuBLAS提供了对稀疏矩阵计算的加速。</p>
+<p>(13)Thrust:提供了高速的并行算法的开源库，用于计算GPU加速的排序、扫描、变换和规约等常用算法。</p>
+<p>(14)NVBIO:生物领域，提供了GPU加速的高吞吐序列分析，同时支持长短读校准(long and short read alignment).</p>
+<p><strong>以上环境配置是超算竞赛中不可避免的，当然对于具体的题目、软件，可能还有其他环境需要配置。只有自己熟悉Linux基本操作与概念、熟悉环境配置流程才能随机应变。</strong></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:GearyZhang@outlook.com">TideDra</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/">https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://tidedra.top" target="_blank">泷汐的小屋</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/ASC%E7%AB%9E%E8%B5%9B/">ASC竞赛</a></div><div class="post_share"><div class="social-share" data-image="https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/"><img class="prev-cover" src="https://img.zsaqwq.com/images/2022/03/26/vim_logo.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">【ASC超算教程】Vim的基本使用</div></div></a></div><div class="next-post pull-right"><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/"><img class="next-cover" src="https://img.zsaqwq.com/images/2022/03/26/pytorch_logo.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【ASC超算教程】pytorch模型优化思路</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/" title="【ASC超算教程】怎么写Proposal？"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】怎么写Proposal？</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/" title="【ASC超算教程】pytorch模型优化思路"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/pytorch_logo.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】pytorch模型优化思路</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/" title="【ASC超算教程】Tensorflow模型优化思路"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/tensorflow_logo.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】Tensorflow模型优化思路</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/" title="【ASC超算教程】Vim的基本使用"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/vim_logo.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】Vim的基本使用</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/linux-base/" title="【ASC超算教程】Linux基础"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/25/linux_base_top.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-25</div><div class="title">【ASC超算教程】Linux基础</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://img.zsaqwq.com/images/2022/03/25/headimg.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">TideDra</div><div class="author-info__description">东南大学吴健雄学院在读本科生</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/TideDra"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/TideDra" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:GearyZhang@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="tencent://message/?uin=718525108&amp;Site=&amp;Menu=yes" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80-4"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ASC%E7%AB%9E%E8%B5%9B%E8%A7%84%E5%88%99%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.</span> <span class="toc-text">ASC竞赛规则介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%A0%A1%E8%B5%9B%E8%A7%84%E5%88%99"><span class="toc-number">2.1.</span> <span class="toc-text">东南大学校赛规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2014%E5%B9%B4%E5%88%9D%E8%B5%9B%E8%A7%84%E5%88%99%E8%A7%A3%E6%9E%90"><span class="toc-number">2.2.</span> <span class="toc-text">2014年初赛规则解析</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9D%E8%B5%9B%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.2.1.</span> <span class="toc-text">初赛介绍</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9D%E8%B5%9B%E8%A7%84%E5%88%99%E8%A7%A3%E6%9E%90"><span class="toc-number">2.2.2.</span> <span class="toc-text">初赛规则解析</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%A1%E8%B5%9B%E5%85%B7%E4%BD%93%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-number">3.</span> <span class="toc-text">校赛具体要做什么？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%9B%E5%89%8D"><span class="toc-number">3.1.</span> <span class="toc-text">赛前</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%9B%E4%B8%AD"><span class="toc-number">3.2.</span> <span class="toc-text">赛中</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%A0%E9%9C%80%E8%A6%81%E9%85%8D%E7%BD%AE%E7%9A%84%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83"><span class="toc-number">4.</span> <span class="toc-text">你需要配置的基础环境</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CPU%E5%B9%B6%E8%A1%8C%E7%B3%BB%E7%BB%9F%E5%BA%94%E7%94%A8%E7%8E%AF%E5%A2%83"><span class="toc-number">4.1.</span> <span class="toc-text">CPU并行系统应用环境</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B9%B6%E8%A1%8C%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83"><span class="toc-number">4.1.1.</span> <span class="toc-text">并行运行环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MPI"><span class="toc-number">4.1.2.</span> <span class="toc-text">MPI</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="toc-number">4.1.3.</span> <span class="toc-text">开发环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E5%99%A8"><span class="toc-number">4.1.4.</span> <span class="toc-text">编译器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%AB%98%E6%80%A7%E8%83%BD%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0%E5%BA%93"><span class="toc-number">4.1.5.</span> <span class="toc-text">高性能数学函数库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CPU-GPU%E5%BC%82%E6%9E%84%E5%B9%B6%E8%A1%8C%E7%8E%AF%E5%A2%83"><span class="toc-number">4.2.</span> <span class="toc-text">CPU+GPU异构并行环境</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/" title="【ASC超算教程】Tensorflow模型优化思路"><img src="https://img.zsaqwq.com/images/2022/03/26/tensorflow_logo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】Tensorflow模型优化思路"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/" title="【ASC超算教程】Tensorflow模型优化思路">【ASC超算教程】Tensorflow模型优化思路</a><time datetime="2022-03-25T17:44:42.000Z" title="发表于 2022-03-26 01:44:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/" title="【ASC超算教程】怎么写Proposal？"><img src="https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】怎么写Proposal？"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/" title="【ASC超算教程】怎么写Proposal？">【ASC超算教程】怎么写Proposal？</a><time datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/" title="【ASC超算教程】pytorch模型优化思路"><img src="https://img.zsaqwq.com/images/2022/03/26/pytorch_logo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】pytorch模型优化思路"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/" title="【ASC超算教程】pytorch模型优化思路">【ASC超算教程】pytorch模型优化思路</a><time datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/" title="【ASC超算教程】ASC竞赛快速入门"><img src="https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】ASC竞赛快速入门"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/" title="【ASC超算教程】ASC竞赛快速入门">【ASC超算教程】ASC竞赛快速入门</a><time datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/" title="【ASC超算教程】Vim的基本使用"><img src="https://img.zsaqwq.com/images/2022/03/26/vim_logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】Vim的基本使用"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/" title="【ASC超算教程】Vim的基本使用">【ASC超算教程】Vim的基本使用</a><time datetime="2022-03-25T17:22:42.000Z" title="发表于 2022-03-26 01:22:42">2022-03-26</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://img.zsaqwq.com/images/2022/03/26/footer.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 By TideDra</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://www.tidedra.top/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'x7C2UiqAlvLlPEIsVusisuTA-gzGzoHsz',
+      appKey: 'zI4JEfVQyHvNShNEJvcIAYKO',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: true
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【ASC超算教程】怎么写Proposal？ | 泷汐的小屋</title><meta name="keywords" content="ASC竞赛"><meta name="author" content="TideDra,GearyZhang@outlook.com"><meta name="copyright" content="TideDra"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言 《超算竞赛导引》是由赛事官方编写的指导书。本文就书中的一些有用、重点的内容作摘要整理，并根据笔者自身经验加以补充，以助刚入门的同学快速了解、上手超算竞赛。欲见详细内容请自行购买、借阅书籍。 竞赛方案的要求将会随着竟赛细节的正式发布而公布。准备竞赛方案需要理论知识与实践动手能力的合理搭配。这份竞赛方案将被视为一份正式的设计报告，需清晰易懂地涵盖各种技术信息。竞赛报告应该包含不同的部分，以方便不">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【ASC超算教程】怎么写Proposal？">
+<meta property="og:url" content="https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/index.html">
+<meta property="og:site_name" content="泷汐的小屋">
+<meta property="og:description" content="前言 《超算竞赛导引》是由赛事官方编写的指导书。本文就书中的一些有用、重点的内容作摘要整理，并根据笔者自身经验加以补充，以助刚入门的同学快速了解、上手超算竞赛。欲见详细内容请自行购买、借阅书籍。 竞赛方案的要求将会随着竟赛细节的正式发布而公布。准备竞赛方案需要理论知识与实践动手能力的合理搭配。这份竞赛方案将被视为一份正式的设计报告，需清晰易懂地涵盖各种技术信息。竞赛报告应该包含不同的部分，以方便不">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg">
+<meta property="article:published_time" content="2022-03-25T17:43:42.000Z">
+<meta property="article:modified_time" content="2022-03-25T17:48:17.130Z">
+<meta property="article:author" content="TideDra">
+<meta property="article:tag" content="ASC竞赛">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【ASC超算教程】怎么写Proposal？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-03-26 01:48:17'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img.zsaqwq.com/images/2022/03/25/headimg.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link"><i class="fa-fw fa-solid fa-link"></i><span> 链接</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">泷汐的小屋</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link"><i class="fa-fw fa-solid fa-link"></i><span> 链接</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【ASC超算教程】怎么写Proposal？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-25T17:48:17.130Z" title="更新于 2022-03-26 01:48:17">2022-03-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/">ASC超算竞赛教程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="【ASC超算教程】怎么写Proposal？"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="前言">前言</h2>
+<p>《超算竞赛导引》是由赛事官方编写的指导书。本文就书中的一些有用、重点的内容作摘要整理，并根据笔者自身经验加以补充，以助刚入门的同学快速了解、上手超算竞赛。欲见详细内容请自行购买、借阅书籍。</p>
+<p>竞赛方案的要求将会随着竟赛细节的正式发布而公布。准备竞赛方案需要理论知识与实践动手能力的合理搭配。这份竞赛方案将被视为一份正式的设计报告，需清晰易懂地涵盖各种技术信息。竞赛报告应该包含不同的部分，以方便不同背景的读者阅读。</p>
+<h2 id="章节结构">章节结构</h2>
+<p>竞赛方案应该包含主体部分和为主体提供补充说明的附录。对于概念、实验结果等信息，最好能用图表等更直观的方式表现出来，以帮助读者或者评委理解。</p>
+<h2 id="图表的呈现">图表的呈现</h2>
+<p>接下来将介绍在方案中如何使用图表的形式将结果呈现出来。通过作图能够很好地反映出两个变量之间的关系(如加速比与CPU核数)。人们一般用x轴来表示自变量（如CPU核数），用y轴来表示因变量（如消耗时间）。坐标轴上应该标出尺度与单位来。图的范围应该以覆盖整个页面为宜。</p>
+<p>在图表中使用合适的字体有助于更美观的信息呈现。图中的对象与字体一般用来表示某一主题以及解释一些想法与概念等。在使用线条时，应使用彼此之间易于区分的线条。例如，如果用虚线来表示以太网连接，就不要再使用相同样式的虚线来表示其他的连接了。在图的范围内，合理地布局各个对象的分布对于信息更好地呈现来说至关重要。一般需要特别强调的对象会放到相对空白的区域以加以突出。空白区域一般都使用白色的背景而不使用黑色或者深色的背景。黑色的背景往往会产生阴影等效果，降低了图的可阅读性。</p>
+<h2 id="其他部分">其他部分</h2>
+<p>在致谢部分，可以对一些提供过很大帮助，但在方案中没有提及的个人或者集体进行感谢等。</p>
+<h2 id="高性能计算活动简介">高性能计算活动简介</h2>
+<p>这一部分内容相对简单，需要选手介绍一下所在学校或者机构关于高性能计算的一些活动。可以介绍一套硬件系统和该系统的主要用途，还可以提供一些在系统上运行的规模较大应用的相关信息。<br>
+<strong>校赛Proposal不用写这个。</strong></p>
+<h2 id="硬件设计与能效">硬件设计与能效</h2>
+<p>由于不同的集群的硬件资源可能不相同，所以在进行硬件设计时并不需要与软件应用部分直接挂钩。选手在硬件上跑任务的时候并不需要完全按照与理论设计一样的设置来进行。选手需要明白安装编译器与数学库的重要性，最好还能在一个小规模的集群上亲自试装一下。安装编译器与数学库是将来得到很好LINPACK测试结果的基础，</p>
+<p>选手可以在不同的硬件集群上进行测试。同时，最好还能介绍一下在测试的过程中做了哪些工作来保证系统在3kW规模下运行。一般可以使用功率计来获得能耗的相应信息。下表列出了功率与效率的相关细节。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">核数</th>
+<th style="text-align:center">加速器</th>
+<th style="text-align:center">计算峰值/Gflops</th>
+<th style="text-align:center">能耗/W</th>
+<th style="text-align:center">效率/(Gflops/W)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">24</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">1440</td>
+<td style="text-align:center">700</td>
+<td style="text-align:center">2.057</td>
+</tr>
+<tr>
+<td style="text-align:center">18</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">1364</td>
+<td style="text-align:center">635</td>
+<td style="text-align:center">2.148</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">1253</td>
+<td style="text-align:center">570</td>
+<td style="text-align:center">2.198</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">1116</td>
+<td style="text-align:center">500</td>
+<td style="text-align:center">2.232</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">1046</td>
+<td style="text-align:center">475</td>
+<td style="text-align:center">2.202</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">895</td>
+<td style="text-align:center">465</td>
+<td style="text-align:center">1.924</td>
+</tr>
+</tbody>
+</table>
+<p>服务器一般都会配有一些冗余的特性（如备用电源）用以保证在商用环境中的可靠性。还可以考虑使用一些节省功率的设备和水冷技术等来取得更好的性能输出。水冷装置的电源功率也应该在3kW能耗限制以下（在进行LINPACK测试的时候，可能需要牺牲一定的CPU核吞吐量以获得更好的浮点计算能力(ops).本章主要为了加深对硬件能耗效率的认识。最后所有优化后的配置参数和系统正常运行的证据都应以类似下表的形式给出。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">节点数</th>
+<th style="text-align:center">核数</th>
+<th style="text-align:center">加速器</th>
+<th style="text-align:center">并行技术</th>
+<th style="text-align:center">N/NB</th>
+<th style="text-align:center">P×Q</th>
+<th style="text-align:center">…</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">OpenMp within node</td>
+<td style="text-align:center">87000/224</td>
+<td style="text-align:center">1×1</td>
+<td style="text-align:center">…</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">1 Xeon Phi</td>
+<td style="text-align:center">OpenMP within node,<br>offload to Xeon Phi</td>
+<td style="text-align:center">87000/1024</td>
+<td style="text-align:center">1×1</td>
+<td style="text-align:center">…</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">1 K40 GPU</td>
+<td style="text-align:center">OpenMP within node<br>CUDA to GPU</td>
+<td style="text-align:center">87000/1024</td>
+<td style="text-align:center">1×1</td>
+<td style="text-align:center">…</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">48</td>
+<td style="text-align:center">1 Xeon Phi per node</td>
+<td style="text-align:center">OpenMP within node,<br>MPI across nodes,<br>offload to Xeon Phi</td>
+<td style="text-align:center">123000/1024</td>
+<td style="text-align:center">1×2</td>
+<td style="text-align:center">…</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">48</td>
+<td style="text-align:center">1 K40 GPU per node</td>
+<td style="text-align:center">OpenMP within node,<br>MPI across nodes,<br>CUDA to GPU</td>
+<td style="text-align:center">123000/1024</td>
+<td style="text-align:center">1×2</td>
+<td style="text-align:center">…</td>
+</tr>
+</tbody>
+</table>
+<p>CPU,Intel Xeon E5-2695v2: 2.4 GHz × 12 cores × 2 socket × 8 flops/clock =460.8Gflops<br>
+per node（每节点）。</p>
+<p>MIC,Intel Xeon Phi 5110P: 1.053GHz × 60 cores × 16 flops/clock=1010.88Gflops per accelerator（每卡）。</p>
+<p>GPU,NVIDIA Tesa K40:（根据说明书）=1430 Gflops per accelerator（每卡）。</p>
+<p>^功耗是在电源插口使用功率计测得的。</p>
+<h2 id="HPL-HPCG-LINPACK测试">(HPL/HPCG)LINPACK测试</h2>
+<p>LINPACK是用来测试高性能计算系统性能的重要指标。具体测试方法请见本站《HPL/HPCG安装与测试方法》。</p>
+<h2 id="应用软件">应用软件</h2>
+<p>首先需要从源代码中安装软件。下载的源代码中会伴有指导安装的说明文件，最好先花一段时间预读一下这些说明文件。另外也可以在一些开源软件开发网站上找到一些有用的信息来帮助程序的编译与安装。对于软件的安装来说，应该先从串行版本入手，完成编译、安装、测试等并得到正确的运行结果，这样有助于对整个安装过程的了解。接下来再开始并行的安装。对于新手来说，一开始安装并行版本会有一些困难，不过多练习几次就会慢慢掌握了。为了取得最好的性能结果，在编译的过程中可能要混合使用不同的编译器与MPI库函数。一般需要通过不断选代才能找到最佳的组合，所以取得最佳性能的过程很麻烦，但是结果是值得的。当然也可以在一些高性能计算指导网站上找到一些使用的信息作为调优的指导。在开始优化的时候，可以直接按照网站上的指导信息进行操作，以尽快地熟悉代码编译等过程。</p>
+<h2 id="配置文档">配置文档</h2>
+<p>在应用优化的层面，针对公布的题目，需要选手充分发挥他们的基本技能并与应用相结合。像LINPACK这样的测试文件往往用来加深对并行计算系统的理解，而真实应用可能需要更加全面的考虑。事实上，了解与应用相适应的实际需求(如内存、CPU与加速卡的计算能力)要比硬件本身计算能力有多强大更重要，即使拥有最先进的硬件设备，如果应用在设备上跑不起来，那性能也就无从谈起了。另外需要记录下对配置文件修改的信息并在提交的方案中加以体现，以便与原始的文件进行比较。</p>
+<p>下面是一些建议。</p>
+<ol>
+<li>使用建议的参数进行安装</li>
+<li>找出影响性能的关键参数。如线程数、运行的处理器核数，以及其他运行程序的参数。</li>
+<li>对问题更深入得了解</li>
+<li>了解输入文件类型和应用描述</li>
+<li>讨论与结果分析</li>
+</ol>
+<h2 id="代码优化">代码优化</h2>
+<p>由于代码优化需要同时具备跨学科的知识，因此对分别来自科学学科和计算机学科的学生来说，都是一个极大的挑战。代码优化也是在评分过程中占比例最大的部分，所以必须引起足够的重视，事先进行重点的辅导。队员之间的紧密配合，对于代码优化的顺利完成至关重要。代码优化可以从程序入手直接优化，也可以重写数值算法。重写数值算法一般需要花费更多的精力，所以在重写之前一定要慎重考虑，根据程序情况和比赛规则来评估是否值<br>
+得重写算法还是直接优化。首先需要分析整个代码，可以先跑一遍测试程序，产生一组正确的输出。想要取得好的可扩展性能，就需要很好地掌握性能分析方法、了解不同架构硬件性能上的区别等（如CPU与GPU+MIC之间的区别）。这样就可以从一小段代码中找出制约性能的瓶颈，然后去逐步解决更大的瓶颈，最终提高整个应用的性能。下一步就需要记录不同阶段优化之后的性能情况。需要将不同的优化信息（如核数、编译器选项、配置参数等）整理成文，并写到方案报告中。最好还能涵盖代码优化前后的区别和性能优化前后的区别等，以方便进行比较。对优化结果分析并提出合理的解释是很重要的一个指标，可以体现出参赛队伍的技术水平。</p>
+<h2 id="项目书任务分配">项目书任务分配</h2>
+<p>在准备项目书的时候，最好能将不同的章节合理地分配给不同的队员，这样就能同时进行准备，大大提高工作效率。队长需要发挥两个作用：负责完成任务的队员、负责激励队友的领袖。应该与指导老师以及培训人员保持紧密的联系，以确保进度，确保提交的内容合理并且专业。根据不同任务强度的不同，所需要花费的时间从10小时到200小时不等。</p>
+<h2 id="总结">总结</h2>
+<p>提交一份优秀的竟赛方案离不开团队合作。对于参加ASC的学生来说，比赛开始阶段确实会感觉到很困难，所以就应该先制定一个合理的训练提纲。队员的积极性高低也是决定队伍强弱、提交方案好坏的一个重要因素。另一个重要因素就是队员对基础知识、重点知识掌握的好坏。本章介绍的主要是建议与导引，是为第一次参加竞赛的参赛者提供帮助，告诉他们如何去制订计划、组队等。将竞赛方案以合理科学的方式呈现出来是取得高分的重要因素。技术说明和技术发现需要特别标注并合理地解释，简言之，以下几个建议会对读者提供定的帮助。</p>
+<ol>
+<li>掌握扎实的基础知识</li>
+<li>团队合作</li>
+<li>合理安排时间</li>
+<li>自学能力</li>
+<li>与指导老师、专家的建设性沟通。</li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:GearyZhang@outlook.com">TideDra</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/">https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://tidedra.top" target="_blank">泷汐的小屋</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/ASC%E7%AB%9E%E8%B5%9B/">ASC竞赛</a></div><div class="post_share"><div class="social-share" data-image="https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/"><img class="prev-cover" src="https://img.zsaqwq.com/images/2022/03/26/pytorch_logo.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">【ASC超算教程】pytorch模型优化思路</div></div></a></div><div class="next-post pull-right"><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/"><img class="next-cover" src="https://img.zsaqwq.com/images/2022/03/26/tensorflow_logo.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【ASC超算教程】Tensorflow模型优化思路</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/" title="【ASC超算教程】pytorch模型优化思路"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/pytorch_logo.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】pytorch模型优化思路</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/" title="【ASC超算教程】Tensorflow模型优化思路"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/tensorflow_logo.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】Tensorflow模型优化思路</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/" title="【ASC超算教程】Vim的基本使用"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/vim_logo.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】Vim的基本使用</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/" title="【ASC超算教程】ASC竞赛快速入门"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-26</div><div class="title">【ASC超算教程】ASC竞赛快速入门</div></div></a></div><div><a href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/linux-base/" title="【ASC超算教程】Linux基础"><img class="cover" src="https://img.zsaqwq.com/images/2022/03/25/linux_base_top.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-25</div><div class="title">【ASC超算教程】Linux基础</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://img.zsaqwq.com/images/2022/03/25/headimg.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">TideDra</div><div class="author-info__description">东南大学吴健雄学院在读本科生</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/TideDra"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/TideDra" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:GearyZhang@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="tencent://message/?uin=718525108&amp;Site=&amp;Menu=yes" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AB%A0%E8%8A%82%E7%BB%93%E6%9E%84"><span class="toc-number">2.</span> <span class="toc-text">章节结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E8%A1%A8%E7%9A%84%E5%91%88%E7%8E%B0"><span class="toc-number">3.</span> <span class="toc-text">图表的呈现</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E9%83%A8%E5%88%86"><span class="toc-number">4.</span> <span class="toc-text">其他部分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B"><span class="toc-number">5.</span> <span class="toc-text">高性能计算活动简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%83%BD%E6%95%88"><span class="toc-number">6.</span> <span class="toc-text">硬件设计与能效</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HPL-HPCG-LINPACK%E6%B5%8B%E8%AF%95"><span class="toc-number">7.</span> <span class="toc-text">(HPL&#x2F;HPCG)LINPACK测试</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6"><span class="toc-number">8.</span> <span class="toc-text">应用软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3"><span class="toc-number">9.</span> <span class="toc-text">配置文档</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96"><span class="toc-number">10.</span> <span class="toc-text">代码优化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E4%B9%A6%E4%BB%BB%E5%8A%A1%E5%88%86%E9%85%8D"><span class="toc-number">11.</span> <span class="toc-text">项目书任务分配</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">12.</span> <span class="toc-text">总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/" title="【ASC超算教程】Tensorflow模型优化思路"><img src="https://img.zsaqwq.com/images/2022/03/26/tensorflow_logo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】Tensorflow模型优化思路"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/" title="【ASC超算教程】Tensorflow模型优化思路">【ASC超算教程】Tensorflow模型优化思路</a><time datetime="2022-03-25T17:44:42.000Z" title="发表于 2022-03-26 01:44:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/" title="【ASC超算教程】怎么写Proposal？"><img src="https://img.zsaqwq.com/images/2022/03/26/Proposal_logo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】怎么写Proposal？"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/" title="【ASC超算教程】怎么写Proposal？">【ASC超算教程】怎么写Proposal？</a><time datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/" title="【ASC超算教程】pytorch模型优化思路"><img src="https://img.zsaqwq.com/images/2022/03/26/pytorch_logo.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】pytorch模型优化思路"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/" title="【ASC超算教程】pytorch模型优化思路">【ASC超算教程】pytorch模型优化思路</a><time datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/" title="【ASC超算教程】ASC竞赛快速入门"><img src="https://img.zsaqwq.com/images/2022/03/26/ASC_logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】ASC竞赛快速入门"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/" title="【ASC超算教程】ASC竞赛快速入门">【ASC超算教程】ASC竞赛快速入门</a><time datetime="2022-03-25T17:43:42.000Z" title="发表于 2022-03-26 01:43:42">2022-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/" title="【ASC超算教程】Vim的基本使用"><img src="https://img.zsaqwq.com/images/2022/03/26/vim_logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【ASC超算教程】Vim的基本使用"/></a><div class="content"><a class="title" href="/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/" title="【ASC超算教程】Vim的基本使用">【ASC超算教程】Vim的基本使用</a><time datetime="2022-03-25T17:22:42.000Z" title="发表于 2022-03-26 01:22:42">2022-03-26</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://img.zsaqwq.com/images/2022/03/26/footer.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 By TideDra</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://www.tidedra.top/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'x7C2UiqAlvLlPEIsVusisuTA-gzGzoHsz',
+      appKey: 'zI4JEfVQyHvNShNEJvcIAYKO',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: true
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
