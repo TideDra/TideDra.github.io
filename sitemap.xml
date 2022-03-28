@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tidedra.top/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/md-recommand/</loc>
+    
+    <lastmod>2022-03-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tidedra.top/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML-exp1/</loc>
     
     <lastmod>2022-03-28</lastmod>
@@ -172,6 +181,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://tidedra.top/tags/Markdown/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tidedra.top/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -204,6 +227,13 @@
   
   <url>
     <loc>https://tidedra.top/categories/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tidedra.top/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
