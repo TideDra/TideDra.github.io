@@ -1,4 +1,5 @@
 https://tidedra.top/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/md-recommand/
+https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/linux-base/
 https://tidedra.top/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML-exp1/
 https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/tensorflow-opt/
 https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/vimtutor/
@@ -8,7 +9,6 @@ https://tidedra.top/link/index.html
 https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/pytorch-opt/
 https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Proposal-writing/
 https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/ASC-introduction/
-https://tidedra.top/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/linux-base/
 https://tidedra.top/categories/index.html
 https://tidedra.top/
 https://tidedra.top/tags/ASC%E7%AB%9E%E8%B5%9B/
