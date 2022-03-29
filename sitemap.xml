@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tidedra.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML-exp2/</loc>
+    
+    <lastmod>2022-03-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tidedra.github.io/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/md-recommand/</loc>
     
     <lastmod>2022-03-28</lastmod>
