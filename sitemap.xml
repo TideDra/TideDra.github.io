@@ -142,6 +142,20 @@
   </url>
   
   <url>
+    <loc>https://tidedra.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tidedra.github.io/tags/WSL2/</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tidedra.github.io/tags/Linux/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -163,7 +177,7 @@
   </url>
   
   <url>
-    <loc>https://tidedra.github.io/tags/Tensorflow/</loc>
+    <loc>https://tidedra.github.io/tags/Pytorch/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -184,21 +198,7 @@
   </url>
   
   <url>
-    <loc>https://tidedra.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tidedra.github.io/tags/WSL2/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tidedra.github.io/tags/Pytorch/</loc>
+    <loc>https://tidedra.github.io/tags/Tensorflow/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -221,20 +221,6 @@
   </url>
   
   <url>
-    <loc>https://tidedra.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tidedra.github.io/categories/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tidedra.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,7 +228,21 @@
   </url>
   
   <url>
+    <loc>https://tidedra.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tidedra.github.io/categories/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Pytorch/</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tidedra.github.io/categories/ASC%E8%B6%85%E7%AE%97%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/Tensorflow/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
